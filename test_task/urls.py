@@ -44,5 +44,6 @@ urlpatterns = [
     path('api/v1/products/<int:pk>/', ProductRetrieveAPIView.as_view()),
     path('api/v1/categories/<int:pk>/', CategoryRetrieveAPIView.as_view()),
     path('api/v1/users/', UserAPIView.as_view()),
-    path('api/v1/users/<int:pk>/', UserRetrieveAPIView.as_view())
+    path('api/v1/users/<int:pk>/', UserRetrieveAPIView.as_view()
+         )
 ]
